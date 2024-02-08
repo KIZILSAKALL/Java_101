@@ -22,19 +22,6 @@ public class average {
         System.out.print("Music grade: ");
         msc=scan.nextInt();
 
-        if (mat >= 0 && mat <= 100 && phy >= 0 && phy <= 100 && trk >= 0 && trk <= 100 && chm >= 0 && chm <= 100 && msc >= 0 && msc <= 100) {
-            double average = (mat + phy + chm + trk + msc) / 5;
-
-
-        if(average <=55){
-            System.out.println("You didn't pass.");
-        }else{
-            System.out.println("You passed.");
-        }
-
-        System.out.println("Your average: "+average);
-    }
-
 
         }
     }
