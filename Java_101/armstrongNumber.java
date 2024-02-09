@@ -4,6 +4,8 @@ public class armstrongNumber {
     public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
 
+        //TASK1//
+
         int sum=0;
         int numOfDig=0;
         int remainder;
@@ -37,6 +39,23 @@ public class armstrongNumber {
             System.out.println("No "+isArmstrongNumber+" is not armstrong number.");
 
         }
+
+
+        //TASK2//
+        System.out.print("Please enter any number and learn it's sum of digit values: ");
+        int number=scan.nextInt();
+
+        int sumOfDigit=0;
+        int remainderDigit;
+
+        while(number !=0){
+             remainderDigit=number%10;
+             sumOfDigit+=remainderDigit;
+             number/=10;
+        }
+        System.out.println("Sum of digit values: "+ sumOfDigit);
+
+
     }
     
 }
