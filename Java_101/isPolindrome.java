@@ -1,6 +1,6 @@
 package Java_101;
 
-public class isPolindrome {
+public class IsPolindrome {
     public static void main(String[] args){
         isPolindrome(222);
 

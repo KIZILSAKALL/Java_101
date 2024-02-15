@@ -1,6 +1,6 @@
 package Java_101;
 import java.util.Scanner;
-public class taxiMeter {
+public class TaxiMeter {
     public static void main(String[] args){
 
     Scanner scan=new Scanner(System.in);

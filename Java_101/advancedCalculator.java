@@ -1,7 +1,7 @@
 package Java_101;
 import java.util.*;
 
-public class advancedCalculator {
+public class AdvancedCalculator {
     public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class advancedCalculator {
         + "7- Rectangular Area and Perimeter Calculation\n"
         + "0- Log Out";
         
-        int select=0;
+        int selects=0;
 
         do{
             System.out.println(menu);

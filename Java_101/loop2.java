@@ -1,6 +1,6 @@
 package Java_101;
 import java.util.*;
-public class loop2 {
+public class Loop2 {
     public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
         

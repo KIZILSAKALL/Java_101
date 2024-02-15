@@ -1,6 +1,6 @@
 package Java_101;
 import java.util.*;
-public class recursivePower {
+public class RecursivePower {
     public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
 

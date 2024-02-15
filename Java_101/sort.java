@@ -1,6 +1,6 @@
 package Java_101;
 import java.util.*;
-public class sort {
+public class Sort {
     public static void main(String[] args){
         Scanner scan= new Scanner(System.in);
         System.out.println("Our programme sort numbers from large to small you type.Please enter three numbers.");

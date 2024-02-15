@@ -3,7 +3,7 @@ import java.util.*;
 
 import java.util.Scanner;
 
-public class calcHipo {
+public class CalcHipo {
     public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
         System.out.println("Please enter edges length of triangle: ");
