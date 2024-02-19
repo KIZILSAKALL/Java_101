@@ -1,6 +1,6 @@
 package Java_101.classAndObject;
 
-public class car {
+public class Car {
 
         //Nitelikler
         String type="sedan";

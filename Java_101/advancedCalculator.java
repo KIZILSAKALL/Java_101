@@ -14,7 +14,7 @@ public class AdvancedCalculator {
         + "7- Rectangular Area and Perimeter Calculation\n"
         + "0- Log Out";
         
-        int selects=0;
+        int select=0;
 
         do{
             System.out.println(menu);

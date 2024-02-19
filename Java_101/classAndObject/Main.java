@@ -1,21 +1,21 @@
 package Java_101.classAndObject;
 
-public class main {
+public class Main {
      public static void main(String[] args) {
-        car audi= new car();
+        Car audi= new Car();
         audi.model="Audi A3";
         audi.speed=10;
         audi.increaseSpeed(20);
         audi.printSpeed();
 
-        car bmw=new car();
+        Car bmw=new Car();
         bmw.model="BMW İ8";
         bmw.speed=20;
         bmw.decreaseSpeed(12);
         bmw.printSpeed();
 
 
-        car mercedes=new car();
+        Car mercedes=new Car();
         mercedes.model="Mercedes E250";
         mercedes.speed=40;
         mercedes.printSpeed();
